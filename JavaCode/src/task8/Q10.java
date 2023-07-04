@@ -3,7 +3,7 @@ package task8;
 public class Q10 {
 
 	public static void main(String[] args) {
-		// count number og digits in integer
+		// count number of digits in integer
 
 		
 		int i = 0;

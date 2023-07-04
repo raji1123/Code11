@@ -3,8 +3,24 @@ package task9;
 public class Q1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		String s1="true";
+	    String reverse=" ";
+	    int length=s1.length();
+	    for (int i=length-1;i>=0;i--)
+	    {
+	    reverse=reverse+s1.charAt(i);
+	    }
+        
+        
+        if(s1.equalsIgnoreCase(reverse)) {
+        	
+        System.out.println("palindrom");
+        }
+        
+        else
+        	  System.out.println("Not a palindrom");
+}
 
 	}
 
-}
+

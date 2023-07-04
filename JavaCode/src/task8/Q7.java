@@ -10,11 +10,17 @@ public class Q7 {
 		Scanner s = new Scanner(System.in);      	  
 		System.out.println("enter the string");
 String name=s.next();
-int a;
-a=name.length();
-System.out.println(a);
+String op="";
+int result;
+for(int i=1;i<=name.length();i++) {
+	char ch=name.charAt(i);
+	
 
+if(!Character.isWhitespace(ch)) {
+   op +=  ch;
+   
 
-	}
+	}}
+System.out.println(op);
 
-}
+}}
