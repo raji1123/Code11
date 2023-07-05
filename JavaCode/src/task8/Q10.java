@@ -11,7 +11,7 @@ public class Q10 {
 		int sum=127;
 		while(sum!=0) {
 			sum=sum/10;
-			++i;
+			i++;
 			
 			
 		}
