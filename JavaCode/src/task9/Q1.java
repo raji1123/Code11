@@ -2,7 +2,7 @@ package task9;
 
 public class Q1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {//palindrom
 		String s1="true";
 	    String reverse="";
 	    int length=s1.length();
