@@ -3,7 +3,7 @@ package task9;
 public class Q4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Not in task 9 it is for practice
 		int a ,b, c;
 		a=10;
 		b=12;

@@ -3,7 +3,7 @@ package task9;
 public class Q7 {
 
 	public static void main(String[] args) {
-		// GRADING SYSTEM
+		// Q5   anna university to calculate the GRADING SYSTEM
 		int mark;
 		mark=80;
 		

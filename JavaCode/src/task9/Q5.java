@@ -3,7 +3,7 @@ package task9;
 public class Q5 {
 
 	public static void main(String[] args) {
-		// pattern
+		// Q4 program to print the pattern
 		
 		int n=5;
 		int i,j,k;

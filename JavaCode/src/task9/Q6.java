@@ -2,7 +2,7 @@ package task9;
 
 import java.util.Scanner;
 
-public class Q6 {//use switch statement
+public class Q6 {//Q6  program to calculate the hotel; tariffic use switch statement
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
