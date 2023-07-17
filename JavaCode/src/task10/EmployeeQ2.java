@@ -8,14 +8,14 @@ public class EmployeeQ2 {
 	int anualsalary;
 	int raisesalary;
 	
-	public void employedetails(int a,String b, int c,int d,int f) {
+	/*public void employedetails(int a,String b, int c,int d,int f) {
 		
 		int id=a;
 		String name=b;
 		int salary=c;
         int anualsalary=d;
         int raisesalary=f;
-	}
+	}*/
 	public int getid(int a) {
 		int id=a;
 		return id;
@@ -31,14 +31,14 @@ public class EmployeeQ2 {
 	
 	
 	public void setsalary(int c) {
-		int salary=c;
+		salary=c;
 
 	}
 	
 	
 	
-	public int getsalary(int c) {
-		salary= c;
+	public int getsalary() {
+		int c=salary;
 		return salary;
 		
 	}
@@ -65,7 +65,8 @@ public class EmployeeQ2 {
 		System.out.println("EMPLOYEE DETAIL-1");
 		System.out.println(s.getid(11));
 		System.out.println(s.getname("raji"));
-		System.out.println(s.getsalary(25000));
+		s.setsalary(2000);
+		System.out.println(s.getsalary());
 		System.out.println(s.anualsalary(120000));
 		System.out.println(s.raisesalary(25000));
 		

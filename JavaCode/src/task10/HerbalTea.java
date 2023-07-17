@@ -7,12 +7,12 @@ public class HerbalTea extends GreenTea{
 
 	
 	public static void main(String[] args) {
-		HerbalTea s1=new HerbalTea();
-		s1.ingredients();
-		s1.preparetea();
+		
 		System.out.println("---- ");
 		GreenTea s2=new HerbalTea ();
 		s2.preparetea();
+		s2.color();
+		s2.ingredients();
 		
 	}
 	

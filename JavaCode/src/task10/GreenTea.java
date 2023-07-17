@@ -6,19 +6,16 @@ subclass should override the prepareTea() method to prepare the specific type of
 public class GreenTea extends BlackTea{
 
 	public static void main(String[] args) {
-	GreenTea s=new GreenTea ();
-	s.preparetea();
-	s.ingredients();
+	
 		
 	System.out.println("---- ");
 	
 	
 	BlackTea s2=new GreenTea ();
-	
-	
-	
+	s2.color();
+
 	s2.preparetea();
-	
+	s2.ingredients();
 		
 	}
 
@@ -31,11 +28,7 @@ public class GreenTea extends BlackTea{
 		System.out.println(" green leafs and sugar-brewing time-10 minutes ");
 		
 	}
-void color() {
-		
-		
-		System.out.println(" greencolor ");
-	}
+    
 	
 	
 	

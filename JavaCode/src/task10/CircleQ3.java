@@ -11,7 +11,7 @@ public class CircleQ3 {
 		//CircleQ3 s=new CircleQ3();
 		CircleQ3 s1=new CircleQ3();
 		
-		 s1.getter(2,22.7);
+		 s1.setter(2,22.7);
 		
 	}
 
@@ -28,11 +28,11 @@ public class CircleQ3 {
 	{
 		radius=a;
 		pi=b;
-		//result=(int) (a*b);
+	
 
 	}
 	
-	public void getter(int a,double b )
+	public void setter(int a,double b )
 	{
 		result=(int) (a*b);
 		System.out.println(result);
