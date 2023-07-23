@@ -2,53 +2,58 @@ package task10;
 
 public class AccountQ4 {
 
-	
-		int balance;
-		int withdrwal;
-		int deposit;
+  double withdraw;
+  double deposit;
+double bankbalance=1000;
 		
 		public static void main(String[] args) {
+			AccountQ4 Ac1=new AccountQ4();
+			AccountQ4 Ac2=new AccountQ4(200);
+			System.out.println("After withdrawal"  +" "+Ac1.withdraw());
+			System.out.println("After deposit"+" "+ Ac1.deposit(900));
+			//System.out.println(Ac2.withdraw());
 			
+			/*System.out.println(Ac1.deposit(200, 800));
+			System.out.println(Ac2.deposit(500, 800))*/;
 			
-			//CircleQ3 s=new CircleQ3();
-			AccountQ4 s1=new AccountQ4();
-			
-			s1.withdraw(1000,500);
-			s1.deposit(500);
-			
+	
 		}
 
 		
-		public AccountQ4()
-		
-		{
-			System.out.println("balance amount is");
-		
-			
-			
+		public AccountQ4() {
+			withdraw=100;
+			deposit=1000;
 		}
 		
-		public AccountQ4(int a,int b,int d)
-		{
-			balance=a;
-			withdrwal=b;
-			deposit=d;
-
+		
+        public AccountQ4(double withdraw) {
+			
+        	this.withdraw=withdraw;
+        	
+        	
 		}
 		
-		public void withdraw(int a,int b)
-		{
-		int result=a-b;
-		System.out.println("After withdrawal "+result);
-		
-	    }
-		
-		public void deposit(int d) {
-			
-	        int result = 0;
-			deposit= result+d;
-			System.out.println("After deposit "+deposit);
-		
-	}
-
-}
+        public double withdraw() {
+        	
+        double afterwithdrawal=	bankbalance-withdraw;
+        
+        	return afterwithdrawal;
+        	
+        	
+        }
+      
+        
+        
+        
+        public double deposit(double afterwithdrawal) {
+        	
+            double afterdeposit=	afterwithdrawal+deposit;
+            
+            	return afterdeposit;
+            	
+            	
+            }
+        
+        
+        
+}	

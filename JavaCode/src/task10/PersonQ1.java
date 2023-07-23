@@ -15,7 +15,7 @@ int age;
 	}
 
 	public PersonQ1(String s,int i ) {
-		System.out.println("St");//setter
+		//System.out.println("St");//setter
 		
 		name=s;
 		age=i;
